@@ -1,5 +1,5 @@
 # SentenceTransformers_MultiTaskLearning
- Implementing Sentence transformers which takes in text and gives out fixed length embeddings and multiTask learning transformer
+ Implementing Sentence transformers which takes in text and gives out fixed length embeddings and multiTask learning transformer to classify text and to do sentiment analysis.
  # Step 1: Sentence Transformers
  Huggingface's transformers library provides a pre-trained model for this instrad of building a transformer from scratch which is time and resource consuming.
  I chose the distilbert-base-nli-stsb-mean-tokens model for efficiency and performance. It balances speed and accuracy by using a smaller transformer model.
