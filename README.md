@@ -7,7 +7,9 @@
 
  # Implementation steps
 >> pip install transformers sentence-transformers torch
+
 // running sentence_embedding file to get fixed length embeddings for given text.
+
 >> python sentence_embedding.py 
 
 # Step 2: Multi-Task Learning Expansion
